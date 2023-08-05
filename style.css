@@ -25,8 +25,14 @@
     color: #FF5151 !important;
     font-family: Rubik;
 }
+.navbar svg path {
+    fill: #4F5665; /* Default icon color */
+    transition: fill 0.2s ease; /* Smooth transition for color change */
+}
 
-
+.navbar svg:hover path {
+    fill: #FF5151; /* Hover icon color */
+}
 .hero {
     display: flex;
     justify-content: space-between;
@@ -131,7 +137,7 @@
     height: 210px;
     position: relative;
     padding: 10px !important;
-    background: linear-gradient(180deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+    background: linear-gradient(180deg, rgba(224, 178, 121, 0.44) 0%, rgba(225, 135, 138, 0.38) 100%);
 }
 
 #favicon {
@@ -161,7 +167,7 @@
 .card-body:hover {
     /* Box shadow and text shadow effect on hover */
     box-shadow: 0 8px 15px rgb(208, 211, 131);
-    text-shadow: 1px 1px 1px rgba(rgb(230, 191, 108);
+    text-shadow: 1px 1px 1px rgba(rgb(108, 204, 230);
     );
   }
 .image1>img {
@@ -181,7 +187,7 @@
     width: 14rem !important;
     border-radius: 1.5625rem;
     background: #FFF;
-    box-shadow: 0px 20px 70px 5px rgba(0, 0, 0, 0.02);
+    box-shadow: 0px 20px 70px 5px rgba(190, 133, 133, 0.02);
     overflow: hidden;
     border: none;
     margin-bottom: 0.7rem;
